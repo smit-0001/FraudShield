@@ -1,0 +1,33 @@
+FraudShield Real-Time Detection Engine
+
+Data ingestion (streaming) — producers push events (transactions, login, device telemetry).
+Options: Kafka / AWS Kinesis / Google PubSub.
+
+Enrichment & feature pipeline (streaming) — generate real-time aggregates and behavioral features.
+Options: Apache Flink, Kafka Streams, Apache Beam (Dataflow).
+
+Feature store — serve features for training and online inference.
+Options: Feast, Hopsworks, or Redis for simple setups.
+
+Model training (batch + incremental) — offline training and periodic retraining.
+Options: XGBoost, LightGBM, CatBoost, neural nets, or graph models.
+
+Model serving (low latency) — REST/gRPC scoring endpoint and/or in-stream scoring.
+Options: TorchServe, Triton, KFServing (KServe), or a lightweight FastAPI with autoscaling on k8s.
+
+Online DB / decision store — store scores, labels, and decisions for auditing.
+Options: PostgreSQL (OLTP), Cassandra (wide column), or DynamoDB.
+
+Real-time response/action — block, challenge, or flag for human review.
+
+Monitoring & observability — data drift, model drift, latency, throughput, false positives.
+Tools: Prometheus + Grafana, ELK, Sentry.
+
+CI/CD and MLOps — model lineage, reproducible training, infra-as-code.
+Tools: GitHub Actions / GitLab CI, Terraform, MLflow or TFX.
+
+let me give you a summary, i have placed an order, i dont know the order id, i have not received a confirmation email.
+i feel like i have mistyped my email.
+6463266163 is my phone number 
+smit dhandhukia
+check these for getting the details

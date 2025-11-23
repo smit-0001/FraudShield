@@ -1,0 +1,27 @@
+# --- Python & VS Code ---
+__pycache__/
+*.pyc
+.vscode/
+.DS_Store
+.env
+
+# --- Virtual Environment ---
+venv/
+env/
+.venv/
+
+# --- Raw Data ---
+# We do NOT want to push the 1GB raw CSVs or the pickle checkpoints
+data/raw/*.csv
+data/processed/*.pkl
+notebooks/.ipynb_checkpoints/
+
+# --- Artifacts ---
+# We usually commit the small model/json files in 'app/' so the container works.
+# BUT, if your XGBoost model is > 100MB, you must ignore it or use Git LFS.
+# For now, we will ALLOW the app artifacts to be pushed.
+# (Uncomment the line below if xgboost model > 100MB)
+# *.json
+
+# --- Docker ---
+.docker/
