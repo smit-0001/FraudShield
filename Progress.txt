@@ -26,8 +26,15 @@ Tools: Prometheus + Grafana, ELK, Sentry.
 CI/CD and MLOps — model lineage, reproducible training, infra-as-code.
 Tools: GitHub Actions / GitLab CI, Terraform, MLflow or TFX.
 
-let me give you a summary, i have placed an order, i dont know the order id, i have not received a confirmation email.
-i feel like i have mistyped my email.
-6463266163 is my phone number 
-smit dhandhukia
-check these for getting the details
+
+# Running
+
+cd app
+uvicorn main:app --reload --host 0.0.0.0
+
+# Make sure you are in the root folder /workspaces/FraudShield
+python simulate_traffic.py
+
+# From root folder
+PYTHONPATH=. pytest
+
